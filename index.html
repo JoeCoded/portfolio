@@ -2,22 +2,50 @@
 <!--
     Name: Joe Barrett
     Date Created: 11.18.20
-<<<<<<< HEAD
-    Most Recent Version: 11.24.20
-=======
-    Most Recent Version: 12.08.20
->>>>>>> master
+    Most Recent Version: 12.12.20
 -->
 <html lang="en">
 <head>
     <title>Joe Barrett's Portfolio</title>
-<<<<<<< HEAD
-=======
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <style>
+        table {
+            width: 90%;
+            margin: auto;
+        }
+        
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px 10px;
+            
+        }
+
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 8px;
+            margin-top: 25px;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #228B22;
+        }
+
+        tr:nth-child(even) {
+            background-color: tomato;
+        }
+
+        th {
+            color: yellow;
+            background-color: #c3b091;
+        }
+
+        tr {
+            height: 30px;
+        }
 
     </style>
->>>>>>> master
 </head>
 <body>
     <header>
@@ -49,31 +77,33 @@
 
             <table>
                 <caption>Employment History</caption>
-                <tr>
-                    <th>Years Employed</th>
-                    <th>Boss</th>
-                    <th>Employer</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Sam</td>
-                    <td>Sam's Club</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Jeff</td>
-                    <td>Jeff's Club</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Karen</td>
-                    <td>Karen's Club</td>
-                </tr>
+                <thead>
+                 <tr>
+                        <th>Years Employed</th>
+                        <th>Boss</th>
+                        <th>Employer</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                         <td>1</td>
+                        <td>Sam</td>
+                        <td>Sam's Club</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jeff</td>
+                        <td>Jeff's Club</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Karen</td>
+                        <td>Karen's Club</td>
+                    </tr>
+                </tbody>
             </table>
 
     </article>
-
-<div>This is a test.</div>
 
     <article id="hobbies">
     <h2><em>Hobbies</em></h2>
