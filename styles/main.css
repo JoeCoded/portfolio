@@ -1,0 +1,50 @@
+
+    /*
+    Name: Joe Barrett
+    Date Created: 11.18.20
+    Most Recent Version: 12.12.20
+    */
+
+    body {
+        background-color: green;
+        font-family: arial, Helvetica, sans-serif;
+        color: #0d1f2d;
+    }
+
+    header {
+        background-color: red;
+        text-align: center;
+        padding: 30px 10px 20px 10px;
+        color: yellow;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    nav {
+        border-top: 3px white;
+        border-bottom: 3px black;
+        margin-top: 4px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: black;
+        font-weight: initial;
+    }
+
+
+    h2 {
+        text-align: center;
+        color: yellow;
+    }
+
+    footer {
+        text-align: center;
+    }
