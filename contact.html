@@ -2,19 +2,20 @@
 <!--
     Name: Joe Barrett
     Date Created: 11.18.20
-    Most Recent Revision: 12.12.20
+    Most Recent Revision: 12.13.20
 -->
 <head>
 <html lang="en">        
     <title>Contact Page</title>
     <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link href="styles/form.css" rel="stylesheet" type="text/css">
 </head>
 
     <body>
         <header>
             <h1>Contact Joe</h1>
         </header>
-        <hr>
+    
 
         <nav>
         <p><a href="index.html">Home</a></p>
@@ -23,27 +24,25 @@
         <p><a href="contact.html">Contact</a></p>
         </nav>
 
-        <hr>
-
         <a href="index.html"><img src="pics/smallsea.jpg" alt="Sunset pic of the Sea"></a>
     
         <hr>
 
         <h2>Information Request</h2>
         <form action="submit.html" method="POST">
-            <label for="firstName">First Name:</label>
+            <label class="yellow-label" for="firstName">First Name:</label>
             <br>
             <input type="text" id="firstName" name="firstName">
             <br>
-            <label for="lastName">Last Name:</label>
+            <label class="yellow-label" for="lastName">Last Name:</label>
             <br>
             <input type="text" id="lastName" name="lastName">
             <br>
-            <label for="phone">Phone Number:</label>
+            <label class="yellow-label" for="phone">Phone Number:</label>
             <br>
             <input type="text" id="phone" name="phone">
             <br>
-            <label for ="contact">Best time to call:</label>
+            <label class="yellow-label" for ="contact">Best time to call:</label>
             <br>
             <select id="contact" name="contact">
                 <option value="default" selected>--Select One--</option>
@@ -52,7 +51,7 @@
                 <option value="evening">Evening (5pm to 8pm centeral)</option>
             </select>
             <fieldset>
-                <legend>I am interested in (check all that apply)</legend>
+                <legend class="yellow-label">I am interested in (check all that apply)</legend>
                 <br>
                 <input type="checkbox" id="frontEnd" name="interest" value="frontEnd">
                 <label for="frontEnd">Front End Web Development</label>
@@ -65,7 +64,7 @@
             </fieldset>
 
             <fieldset>
-                <legend>I have filled in the client questionnaire form:</legend>
+                <legend class="yellow-label">I have filled in the client questionnaire form:</legend>
                 <br>
                 <input type="radio" id="choice1" name="questionnaire" value="yes">
                 <label for="choice1">Yes</label>
@@ -74,7 +73,7 @@
                 <label for="choice2">No</label>
                 <br> 
             </fieldset>
-            <label for="info">Additional Information</label>
+            <label class="yellow-label" for="info">Additional Information</label>
             <br>
             <textarea id="info" name="info"></textarea>
             <br>
@@ -84,7 +83,7 @@
         
 
         <footer>
-            
+            <p>&copy; 2020 Joe Barrett. All rights reserved.</p>
         </footer>
     </body>
 </html>

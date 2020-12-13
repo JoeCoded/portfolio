@@ -2,7 +2,7 @@
     /*
     Name: Joe Barrett
     Date Created: 11.18.20
-    Most Recent Version: 12.12.20
+    Most Recent Version: 12.13.20
     */
 
     body {
@@ -11,7 +11,7 @@
         color: #0d1f2d;
     }
 
-    header {
+    header, footer {
         background-color: red;
         text-align: center;
         padding: 30px 10px 20px 10px;
@@ -24,8 +24,8 @@
     }
     
     nav {
-        border-top: 3px white;
-        border-bottom: 3px black;
+        border-top: dashed 3px black;
+        border-bottom: dashed 3px black;
         margin-top: 4px;
     }
     a {

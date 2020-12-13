@@ -1,0 +1,68 @@
+/*
+    Name: Joe Barrett
+    Date Created: 12.13.20
+    Most Recent Version: 12.13.20
+*/
+
+/* form styling */
+
+label, fieldset{
+    font-size: 1.1em;
+}
+
+/*Apply to all form text with green background*/
+.yellow-label {
+    color: yellow;
+}
+
+input[type=text] {
+    border: 2px solid #0d1f2d;
+    width: 50%;
+    padding: 8px 8px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    font-size: 1.1em;
+}
+
+fieldset {
+    background-color: #fef9ff;
+    width: 80%;
+    padding: 1px 1px;
+    margin: 25px 0;
+    box-sizing:	border-box;
+}
+
+legend {
+    padding-bottom: 20px;
+}    
+
+select, textarea {
+    margin: 12px 0;
+    font-size: 1em;
+}
+
+input[type=submit] {
+    font-size: 1.2em;
+    background-color: green;
+    color: yellow;
+    padding: 4px 8px;
+    margin-bottom: 5px;
+    
+}
+
+input[type=submit]:hover {
+    background-color: #f2eded;
+    color: #546a7b;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    border: 2px solid #0d1f2d;
+    border-radius: 3px;
+    background-color: #fff;
+    resize: none;
+}
